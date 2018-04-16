@@ -16,6 +16,7 @@ const App = () => {
         <Header items={headerItems}>
           {headerItems => headerItems.map(generateLinks)}
         </Header>
+        <br />
         <Navbar items={NavbarLinks} />
         <Container>
           <Sidebar />
